@@ -4,7 +4,13 @@ int got1 = Convert.ToInt32(num1);
 int num2 = 1;
 for(int N = num2; N <= got1; N++)
 {
-    Console.Write(N);
+    int got2 = 2;
+    int result = N % got2;
+    if(result == 0)
+    {
+        Console.Write(N);
+    }
+
 }
 // int array = {1, got1}; 
 // int index0 = 1;
