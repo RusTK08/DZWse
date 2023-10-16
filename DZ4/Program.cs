@@ -8,7 +8,7 @@ for(int N = num2; N <= got1; N++)
     int result = N % got2;
     if(result == 0)
     {
-        Console.Write(N);
+        Console.Write(N + " ");
     }
 
 }
