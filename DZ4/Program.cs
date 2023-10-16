@@ -1,9 +1,10 @@
 ﻿Console.WriteLine("Введите число");
 string num1 = Console.ReadLine();
 int got1 = Convert.ToInt32(num1);
-for(int N = got1; N <= got1; N++)
+int num2 = 1;
+for(int N = num2; N <= got1; N++)
 {
-    Console.Write(got1);
+    Console.Write(N);
 }
 // int array = {1, got1}; 
 // int index0 = 1;
