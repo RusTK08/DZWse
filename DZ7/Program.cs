@@ -14,7 +14,7 @@ int Chet = 4;
 int Pyat = 5;
 int Sub = 6;
 int Vos = 7;
-if(x < 1 || x >7)
+if(x < 1 || x > 7)
 {
     Console.WriteLine("Введите число от 1 до 7");
 }
