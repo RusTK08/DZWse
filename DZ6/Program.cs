@@ -9,14 +9,29 @@
 // {
 //     Console.WriteLine("Третьей цифры нет");
 // }
+// Console.WriteLine("Введите число");
+// int Number = Convert.ToInt32(Console.ReadLine());
+// string NumberP = Convert.ToString(Number);
+// if (NumberP.Length > 2)
+// {
+//   Console.WriteLine(NumberP[2]);
+// }
+// else 
+// {
+//   Console.WriteLine("Третьей цифры нет");
+// }
 Console.WriteLine("Введите число");
 int Number = Convert.ToInt32(Console.ReadLine());
 string NumberP = Convert.ToString(Number);
-if (NumberP.Length > 2)
+int index = 0;
+int poryadkovNumberIskom = 3;
+int raznica = 1;
+int indexFind = poryadkovNumberIskom - raznica;
+if(NumberP.Length > indexFind) 
 {
-  Console.WriteLine(NumberP[2]);
+    Console.WriteLine(NumberP[indexFind]);
 }
-else 
+else
 {
-  Console.WriteLine("Третьей цифры нет");
+    Console.WriteLine("Третьей цифры нет");
 }
